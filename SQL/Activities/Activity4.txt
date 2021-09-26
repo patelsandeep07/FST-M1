@@ -1,0 +1,8 @@
+--Add the grade column 
+ALTER TABLE salesman ADD grade int;
+
+--Update the vlaues in the grade column
+UPDATE salesman SET grade=100;
+
+--Display table
+SELECT * FROM salesman

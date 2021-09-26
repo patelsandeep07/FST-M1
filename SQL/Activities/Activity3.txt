@@ -1,0 +1,10 @@
+--Show data from the salesman_id and city column 
+Select salesman_id,salesman_city FROM salesman;
+
+--Show data of salesman from paris
+Select * FROM salesman
+Where salesman_city = 'Paris';
+
+-- Show salesman_id and commission of Paul Adam
+Select salesman_id,commission FROM salesman
+Where salesman_name = 'Paul Adam';
