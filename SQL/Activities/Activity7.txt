@@ -1,0 +1,14 @@
+--total purchase amount of all order
+select SUM(purchase_amount) as "Total sum" from orders;
+
+--average purchase amount
+select AVG(purchase_amount) as "Average" from orders;
+
+--Max purchase amount 
+select MAX(purchase_amount) as "Max Amount" from orders;
+
+--Min purchase amount 
+select MIN(purchase_amount) as "Min Amount" from orders;
+
+--No. of salesman listed 
+select COUNT(DISTINCT salesman_id) as "Total Count" from orders;
